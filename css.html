@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <title>CSS</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -34,8 +37,8 @@
                 <li>или универсальный селектор "*"</li>
                 <li>или группировка селекторов (например, "h1, h2, p")</li>
                 <li>или другие селекторы: >(перейти вглубь по селектору),<br>
-                     a+b(след.элемент b после a),<br>
-                      a~b(элемент b перед a),<br>
+                    a+b(след.элемент b после a),<br>
+                    a~b(элемент b перед a),<br>
                     элемент:first-child (первый элемент внутри другого),<br>
                     input[type="text"] {} (стиль для всех элементов input, у которых атрибут type="text")<br>
                     a:hover{} (стиль для ссылки при наведении на нее курсора мыши.)<br>
@@ -46,8 +49,12 @@
         </li>
         <li>color: blue - установить синий цвет</li>
         <li>text-align: center - установить выравнивание по-центру</li>
-        <li>font-size: 26px - установить развер шрифта 26пикс</li>
+        <li>font-size: 26px - установить развер шрифта 26пикс (pt - в пунктах; 1.2em - 1.2 от размера шрифта родит.
+            элемента; 1.2rem - от размера шрифта корневого элемента.)</li>
         <li>line-height: 1.5 - установить высоту строки</li>
+        <li>font-weight: насыщенность шрифта</li>
+        <li>font-style: стиль шрифта</li>
+        <li>font-family: "шрифт1", "шрифт2",...: шрифты</li>
         <li>link rel="stylesheet" href="styles.css" - подключить стиль (stylesheet - таблица стилей)</li>
     </ul>
 </body>

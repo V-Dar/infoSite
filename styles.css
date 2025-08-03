@@ -16,14 +16,18 @@ h1 {
   display: flex;
   margin: 10px;
   justify-content: center; 
+  flex-wrap: wrap;
 }
 
 .box-item {
   width: 20%; 
+  min-width: 150px;
+  width: min-content;
   border-style: solid;
   border-color: #c7eb91;
   text-align: center;
   transition: scale 0.3s, box-shadow 0.3s;
+
 }
 .box-item:hover {
   scale: 1.2;

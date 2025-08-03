@@ -1,12 +1,38 @@
-body
-{
-    background: linear-gradient(to bottom right, rgb(194, 221, 191), white);
-    min-height: 100vh;
+body {
+  background: linear-gradient(to bottom right, #c2ddbf, white);
+  min-height: 100vh;
 
 }
+
 h1 {
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+
+.box-item {
+  width: 20%;
+  height: min-content;
+  border-style: solid;
+  border-color: #c7eb91;
+  text-align: center;
+  transition: scale 0.3s, box-shadow 0.3s;
+}
+.box-item:hover {
+  scale: 1.2;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80);
+}
+
+.box-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }

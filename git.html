@@ -157,6 +157,12 @@
         <li>Скопировать ключ.</li>
         <li>Настройки аккаунта Github –> SHH anf GPG keys –>New SSH key –> добавить ключ.</li>
         <li>В Git bash –> ssh -T git@github.com–> ввести пароль, если он есть.</li>
+
+        <h3>Добавление источника пакета (гитлаб) в настройки дотнета (например, в VS Code)</h3>
+        <li>nuget add source "https://gitlab.z****t-***.ru/api/v4/projects/566/packages/nuget/index.json" --name
+            "gitlab_***_nuget" --username "s36036" --password "glpat-********************" <br>
+            (v4 - версия гитлаба, 566 - project id, задать имя источника, password - access token гитлаба, username -
+            имя пользователя гитлаба)</li>
     </ul>
     </p>
 </body>

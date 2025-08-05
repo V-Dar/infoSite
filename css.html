@@ -98,13 +98,19 @@
             <ol>
                 <li>.grid-container {<br>
                     display: grid;<br>
-                    grid-template-columns: repeat(2, 1fr) (или 1fr 1fr); - ширина столбцов<br>
-                    grid-template-rows: 100px 100px 100px 300px; - ширина строк<br>
-                    gap: 10px; (расстояние между ячейками)<br>
+                    grid-template-columns: 1fr 1fr (или repeat(2, 1fr)); - столбцы<br>
+                    grid-template-rows: 100px 100px 100px 300px (или 1fr 1fr...); - строки<br>
+                    gap: 10px (или 10px 20px); (расстояние между ячейками)<br>
                     }</li>
+                <li>
+                    Элементы грида<br>
+                    grid-column: span 2; -соединить 2 столбца
+                </li>
                 <li>grid-column: span 2 - соединить 2 ячейки</li>
             </ol>
         </li>
+
+
         <li><b>Flexbox - гибкий контейнер. Строится на div(контейнер), в который вложены div(элементы). В стиле
                 контейнера устанавливается display: flex; (<a href="https://tpverstak.ru/flex-cheatsheet/"
                     target="_blank">Информация по Flex.</a>)</b>

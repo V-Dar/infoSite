@@ -12,6 +12,26 @@
 
 <body>
     <h1>CSS</h1>
+    <div class="box">
+        <div class="box-item">
+            <a href="index.html"><img
+                    src="https://avatars.mds.yandex.net/i?id=206f723f5d5b79e90545103a7a0e791e55195126-10148236-images-thumbs&n=13"
+                    alt=""></a>
+        </div>
+        <div class="box-item">
+            <a href="git.html"><img
+                    src="https://res.cloudinary.com/practicaldev/image/fetch/s--qK4SKs-g--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/tl1hxlu6ufwx0kbhpzim.png"
+                    alt=""></a>
+        </div>
+        <div class="box-item">
+            <a href="about.html"><img src="Info-site.png"></a>
+        </div>
+        <div class="box-item">
+            <a href="html.html"><img
+                    src="https://s-sd.ru/images/cms/thumbs/a5b0aeaa3fa7d6e58d75710c18673bd7ec6d5f6d/html_1920_1031_jpg_0_100.jpg"
+                    alt=""></a>
+        </div>
+    </div>
     <ul>
         <li>
             <a href="index.html">Главная</a>
@@ -94,14 +114,20 @@
         <li>@media screen and (max-width: 400px) and (min-width: 200px){элемент{}...} - медиа запрос. применить свойства
             к экрану, у которого
             ширина не более 400 пикс.</li>
+
         <li><b>Сетка</b>
             <ol>
                 <li>.grid-container {<br>
                     display: grid;<br>
                     grid-template-columns: 1fr 1fr (или repeat(2, 1fr)); - столбцы<br>
                     grid-template-rows: 100px 100px 100px 300px (или 1fr 1fr...); - строки<br>
+                    grid-template 10px 10px / 10px 10px 10px; - 2 строки, 3 столбца (вместо первых двух команд)<br>
                     gap: 10px (или 10px 20px); (расстояние между ячейками)<br>
                     }</li>
+                <li>grid-template-columns: 1fr 1fr 1fr — вся доступная ширина разделится на 3 части, и каждая колонка
+                    займёт одну из этих частей </li>
+                <li>auto - минимальный размер</li>
+                <li>minmax(200px, 300px) - задать ширину ячейки 200-300px</li>
                 <li>
                     Элементы грида<br>
                     grid-column: span 2; -соединить 2 столбца
@@ -155,6 +181,7 @@
             </ol>
         </li>
         <li>box-shadow: 4px 4px 8px 0px rgba(34, 60, 80); - Добавить тень</li>
+        <li><b>win+. - открыть панель emoji</b></li>
     </ul>
 
 </body>

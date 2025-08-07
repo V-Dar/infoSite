@@ -130,7 +130,10 @@
                 <li>minmax(200px, 300px) - задать ширину ячейки 200-300px</li>
                 <li>
                     Элементы грида<br>
-                    grid-column: span 2; -соединить 2 столбца
+                    grid-column: span 2; -соединить 2 столбца<br>
+                    (grid-column-start:2; grid-column-end:3;) = (grid-column: span 1;)<br>
+                    grid-column: span 3/6; - 3 столбца. элемент заканчивается на столбце 6.<br>
+                    grid-area: 1/2/4/6 (grid-row-start, grid-column-start, grid-row-end и grid-column-end)
                 </li>
                 <li>grid-column: span 2 - соединить 2 ячейки</li>
             </ol>

@@ -49,7 +49,7 @@
         <li>String(a) или a.ToString(), Number(a), Boolean(a) - преобразование типов</li>
         <li>parseInt(string, radix) или Number.parseInt(string, radix) - преобразуют строку в целое число. (radix
             (необязательный): основание системы счисления (от 2 до 36, по умолчанию 10))<br>
-        parseFloat(string), Number.parseFloat(string) - аналогично, только во float.</li>
+            parseFloat(string), Number.parseFloat(string) - аналогично, только во float.</li>
         <li>=== - оператор сравнения без приведения типов.</li>
         <li>`${firstName} ${lastName}, ${age} y.o.` - интерполяция строк.</li>
         <li>tyfeof a; - тип переменной a</li>
@@ -65,6 +65,17 @@
             Используйте Number.isNaN(), когда вам нужно точно определить, является ли значение именно NaN.
         </li>
         <li>Number.isFinite(value) - проверяет, является ли переданное значение конечным числом.</li>
+
+        <h3>Разделение представления и логики. В файле с js:</h3>
+        <li>const tb = document.getElementById("textBox") - получить элемент с id="texBox" для изменения в js.</li>
+        <li>const elements = document.getElementByClassName("textBox") - элементы, которые имеют указанный класс</li>
+        <li>const elements = document.getElementByName("textBox") - элементы, которые имеют значение атрибута textBox</li>
+        <li>const element = document.querySelector(".root") - возвращает первый элемент, который соответствует данному селектору.</li>
+        <li>const elements = document.querySelectorAll(".root") - возвращает коллекцию.</li>
+        <li>btn.addEventListener("click", имя функции) - добавление обработчика события в кнопку.</li>
+        <li>btn.addEventListener("click", finction () {} - анонимная функция) - добавление обработчика события в кнопку.</li>
+        <li>контейнер.appendChild(итем) - добавить элемент в контейнер.</li>
+        <li>box.style.width = "200px" - изменить свойство объекта.</li>
     </ul>
 </body>
 
